@@ -1,0 +1,70 @@
+
+nav{
+    padding: 1px 0;
+    background-color: #004ff3;
+}
+
+nav ul li{
+    display: inline;
+    padding-right: 5px;
+}
+
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #000000
+}
+
+body{
+    font-family: 'Arial', 'Montserrat', sans-serif;
+}
+
+.box{
+    font-weight: bolder;
+}
+
+textarea{
+     vertical-align: top; 
+     font-family: "Arial";
+}
+
+select{
+    vertical-align: top;
+}
+
+
+
+a{
+    background-color: pink;
+    padding: 10px;
+    display: inline-block;
+}
+
+p{
+    background-color: yellow;
+    height: 500px;
+    display: inline;
+}
+
+label{
+    width: 300px;
+    display: inline-block;
+}
+
+input{
+    width: 350px;
+}
+
+input[type="radio"]{
+    display: inline;
+    width: 30px;
+}
+
+input[type="checkbox"]{
+    display: inline;
+    width: 30px;
+}
+

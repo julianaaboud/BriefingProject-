@@ -1,0 +1,127 @@
+
+/*Header*/
+header{
+    background-image: url('../img/paisagem.jpg');
+    background-repeat: no-repeat;
+    background-color: #b3e0ff;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img.center{
+    display: block;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 1px 0;
+    background-color: #004ff3;
+}
+
+nav ul li{
+    display: inline;
+    padding-right: 5px;
+}
+
+header h1{
+    padding-top: 15px;
+}
+
+/* Mudando a cor dos itens de menu */
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #000000
+}
+
+/* Tabela*/
+table, th, td{
+    background-color: #7FFFD4;
+    border: 1px dashed #000000;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+h2{
+    color: #0000FF;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Helvetica, Tahoma, Geneva, Verdana;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.linhaAzul{
+    color: #0099ff;
+}
+
+/*Body*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Resumo */
+
+section{
+    min-width: 10%;
+    min-height: 20%;
+    background-color: white;
+    color: black;
+    padding: 10px 0 50px 30px; /* sentido horário começando do lado superior esquerdo */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+     /*border-color: #ff0000;
+    border-style: double solid dashed dotted;
+    estilos de bordas:  solid, dashed, dotted, double, groove, inset 
+    border-width: 10px;
+    border-radius: 10%;*/
+   /* border: 5px dashed blue; */
+    box-sizing: border-box;
+   /* border-radius: 2%;*/
+}
+
+#tab{
+    min-width: 100%;
+    min-height: 100%;
+    background-color: white;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+section h3{
+    text-align: center;
+}
+
+section img{
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+
+footer a:hover{
+    color: #800080
+}
+
+.heart{
+    color: red;
+    font-weight: bold;
+}
+
+#titulo{
+    color: #800080
+
+}
